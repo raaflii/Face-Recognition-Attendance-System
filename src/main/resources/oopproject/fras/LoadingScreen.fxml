@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="root" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oopproject.fras.LoadingScreenController">
+   <children>
+      <ImageView fx:id="logo" fitHeight="190.0" fitWidth="592.0" layoutX="398.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/uns.png" />
+         </image>
+      </ImageView>
+      <ProgressBar fx:id="LoadingBar" layoutX="411.0" layoutY="393.0" opacity="0.0" prefHeight="27.0" prefWidth="379.0" progress="0.02" />
+   </children>
+</AnchorPane>
